@@ -121,6 +121,7 @@ a {
 }
 
 nav a, #hero-msg h1, #hero-msg h4, .button-box, main {
+    margin-top: 75px;
     text-align: center;
 }
 
@@ -128,8 +129,9 @@ nav a, #hero-msg h1, #hero-msg h4, .button-box, main {
     width: 80px;
 }
 
-#hero-image {
+#hero-img {
     width: 100%;
+    filter: blur(4px);
 }
 
 #background {
@@ -214,7 +216,63 @@ footer h3 a:hover {
 
 .rivers-card, .camping-card, .rapids-card {
     margin: 200px 0;
+    align-content: center;
 }
+
+/* Rivers page -------------------------- */
+
+.rivers-grid {
+    display:grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 100px;
+    height: auto;
+    margin-top: 100px;
+}
+
+#idaho-description, #utah-description, #arizona-description {
+    background-color: #caf0f8d7;
+    padding: 35px;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: justify;
+}
+
+.idaho-card {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+#idaho-description {
+    grid-row: 1/2;
+    grid-column: 2/5;
+    height: fit-content;
+    font-size: 15px;
+}
+
+.utah-card {
+    grid-row: 2/3;
+    grid-column: 4/5;
+}
+
+#utah-description {
+    grid-row: 2/3;
+    grid-column: 1/4;
+    height: fit-content;
+    font-size: 18px;
+}
+
+.arizona-card {
+    grid-row: 3/4;
+    grid-column: 1/2;
+}
+
+#arizona-description {
+    grid-row: 3/4;
+    grid-column: 2/5;
+    height: fit-content;
+    font-size: 17px;
+}
+
+/* Don't change anything after this -------------------------- */
 
 main section img {
     box-sizing: border-box;
@@ -235,19 +293,17 @@ main section img {
     #hero {
         margin-top: 0;
     }
+
     #hero-msg {
         margin-top: 0;
     }
+
     #hero-msg h4 {
         display: none;
     }
     .home-title {
         font-size: 25px;
         color: #6f7364;
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
     }
     #background {
         display: none;
