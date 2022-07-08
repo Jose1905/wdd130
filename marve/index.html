@@ -5,18 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
     <header>
         <a id = "logo_link" href = "index.html">
-            <img class = 'logo' src="images/logo.png" alt="Muebles Marve Logo"/>
+            <img class = 'logo' src="images/logo_home2.png" alt="Muebles Marve Logo"/>
         </a>
         <nav>
             <a href = "index.html">Home</a>
             <a href = "gallery.html">Gallery</a>
             <a href = "choose-color.html">Choose colors</a>
             <a href = "contactus.html">Contact Us</a>
+            <a href = "site-plan.html">Site plan</a>
         </nav>
     </header>
 
@@ -33,20 +34,25 @@
     <main class="home-grid">
         <section class="company-description">
             <img class="company-img" src="images/dummy_furniture_store.jpg" alt="Furniture store">
-            <h2>We are a furniture store that started as a family project, and little by little, for more than 25 years in the market, we have made ourselves known country-wide thanks to the quality of our work and the satisfaction of our clients. We make customized furniture to fit exactly your home or office. We focus on products for kitchen, bedroom, bathroom and office. Our main goal is to make your dreams come true!</h2>
+            <section id="company-msg">
+                <h4>We are a furniture store that started as a family project, and little by little, for more than 25 years in the market, we have made ourselves known country-wide thanks to the quality of our work and the satisfaction of our clients. We make customized furniture to fit exactly your home or office. We focus on products for kitchen, bedroom, bathroom and office. Our main goal is to make your dreams come true!</h2>
+            </section>
         </section>
         
-        <section class="gallery">
-            <a href="gallery.html" target="_blank">
-                <img class="card-img" src="images/gallery.jpeg" alt="gallery picture">
-            </a>
-            <h2>Our work gallery</h2>
-        </section>
+        <section class="navigate">
+            <section class="gallery">
+                <h2>Our work gallery</h2>
+                <a href="gallery.html" target="_blank">
+                    <img class="card-img" src="images/gallery.jpeg" alt="gallery picture">
+                </a>
+            </section>
 
-        <section class="choose-color">
-            <a href="choose-color.html" target="_blank">
-                <img class="card-img" src="images/colors.jpg" alt="Colors">
-            </a>
+            <section class="choose-color">
+                <h2>Choose the right colors</h2>
+                <a href="choose-color.html" target="_blank">
+                    <img class="card-img" src="images/colors.jpg" alt="Colors">
+                </a>
+            </section>
         </section>
     </main>
     
