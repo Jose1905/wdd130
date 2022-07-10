@@ -244,7 +244,7 @@ footer h3 a:hover {
 .kitchen {
     padding-left: 50px;
     padding-right: 50px;
-    background-color: #e2caaa;
+    background-color: #00244863;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 100px 400px;
@@ -252,11 +252,12 @@ footer h3 a:hover {
 }
 
 .kitchen h1 {
+    color: white;
     margin-top: 0px;
     margin-left: -50px;
     margin-right: -50px;
     padding: 20px;
-    background-color: #c9a87d;
+    background-color: #002448;
     grid-column: 1/4;
     grid-row: 1/2;
 }
